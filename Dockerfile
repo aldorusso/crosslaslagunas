@@ -1,4 +1,4 @@
-# Multi-stage build for Next.js
+# Multi-stage build for Next.js static export
 
 # Stage 1: Dependencies
 FROM node:18-alpine AS deps
@@ -18,32 +18,18 @@ WORKDIR /app
 COPY --from=deps /app/node_modules ./node_modules
 COPY . .
 
-# Build the application
+# Build the application (static export)
 RUN npm run build
 
-# Stage 3: Runner
-FROM node:18-alpine AS runner
-WORKDIR /app
+# Stage 3: Runner with Nginx
+FROM nginx:alpine AS runner
 
-ENV NODE_ENV production
+# Copy built static files
+COPY --from=builder /app/out /usr/share/nginx/html
 
-# Create a non-root user
-RUN addgroup --system --gid 1001 nodejs
-RUN adduser --system --uid 1001 nextjs
+# Copy nginx configuration
+COPY nginx.conf /etc/nginx/conf.d/default.conf
 
-# Copy necessary files from builder
-COPY --from=builder /app/public ./public
-COPY --from=builder /app/.next/standalone ./
-COPY --from=builder /app/.next/static ./.next/static
+EXPOSE 80
 
-# Set correct permissions
-RUN chown -R nextjs:nodejs /app
-
-USER nextjs
-
-EXPOSE 3000
-
-ENV PORT 3000
-ENV HOSTNAME "0.0.0.0"
-
-CMD ["node", "server.js"]
+CMD ["nginx", "-g", "daemon off;"]

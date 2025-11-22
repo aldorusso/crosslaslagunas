@@ -16,7 +16,7 @@ export default function AvisoLegal() {
               <li>Titular: Ayuntamiento de Santibáñez el Bajo</li>
               <li>Dirección: Pl. España, 1, 10666 Santibáñez el Bajo, Cáceres</li>
               <li>Teléfono: 927 67 00 59</li>
-              <li>Email: administracion@laspraderas.es</li>
+              <li>Email: info@crosslaslagunas.com</li>
             </ul>
           </section>
 

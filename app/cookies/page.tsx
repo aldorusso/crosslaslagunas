@@ -93,7 +93,7 @@ export default function Cookies() {
               Si tiene alguna pregunta sobre nuestra Política de Cookies, puede contactarnos en:
             </p>
             <p className="mt-2">
-              <strong>Email:</strong> administracion@laspraderas.es<br />
+              <strong>Email:</strong> info@crosslaslagunas.com<br />
               <strong>Teléfono:</strong> 927 67 00 59
             </p>
           </section>

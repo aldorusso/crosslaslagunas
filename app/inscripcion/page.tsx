@@ -152,8 +152,8 @@ export default function Inscripcion() {
                 </p>
                 <p className="flex items-center gap-2">
                   <span className="text-verde-oscuro">✉️</span>
-                  <a href="mailto:administracion@laspraderas.es" className="hover:text-verde-claro transition-colors">
-                    administracion@laspraderas.es
+                  <a href="mailto:info@crosslaslagunas.com" className="hover:text-verde-claro transition-colors">
+                    info@crosslaslagunas.com
                   </a>
                 </p>
               </div>

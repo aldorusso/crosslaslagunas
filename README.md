@@ -86,7 +86,7 @@ cross-las-lagunas/
 
 ## Contacto
 
-- **Email**: administracion@laspraderas.es
+- **Email**: info@crosslaslagunas.com
 - **Teléfono**: 927 67 00 59 / 669 29 72 11
 - **Dirección**: Pl. España, 1, 10666 Santibáñez el Bajo, Cáceres
 

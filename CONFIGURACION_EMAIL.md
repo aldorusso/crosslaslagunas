@@ -163,9 +163,9 @@ Para el Cross Las Lagunas, recomiendo:
 
 Puedes configurar que varios correos redirijan a una cuenta principal:
 
-- info@crosslaslagunas.com → administracion@laspraderas.es
-- inscripciones@crosslaslagunas.com → administracion@laspraderas.es
-- contacto@crosslaslagunas.com → administracion@laspraderas.es
+- info@crosslaslagunas.com → info@crosslaslagunas.com
+- inscripciones@crosslaslagunas.com → info@crosslaslagunas.com
+- contacto@crosslaslagunas.com → info@crosslaslagunas.com
 
 Esto permite tener direcciones profesionales sin necesidad de revisar múltiples bandejas.
 

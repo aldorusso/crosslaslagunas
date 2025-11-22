@@ -56,10 +56,10 @@ export default function Contacto() {
                       <p className="font-bold text-verde-oscuro">Email</p>
                       <p className="text-gray-700">
                         <a
-                          href="mailto:administracion@laspraderas.es"
+                          href="mailto:info@crosslaslagunas.com"
                           className="hover:text-verde-claro transition-colors break-all"
                         >
-                          administracion@laspraderas.es
+                          info@crosslaslagunas.com
                         </a>
                       </p>
                     </div>
@@ -201,10 +201,10 @@ export default function Contacto() {
                 <div>
                   <p className="font-bold text-verde-oscuro mb-2">Email</p>
                   <a
-                    href="mailto:administracion@laspraderas.es"
+                    href="mailto:info@crosslaslagunas.com"
                     className="text-lg hover:text-verde-claro transition-colors"
                   >
-                    administracion@laspraderas.es
+                    info@crosslaslagunas.com
                   </a>
                 </div>
                 <div>

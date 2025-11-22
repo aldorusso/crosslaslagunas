@@ -23,10 +23,10 @@ export default function Footer() {
             </p>
             <p className="mt-2">
               <a
-                href="mailto:administracion@laspraderas.es"
+                href="mailto:info@crosslaslagunas.com"
                 className="hover:text-verde-claro transition-colors"
               >
-                administracion@laspraderas.es
+                info@crosslaslagunas.com
               </a>
             </p>
           </div>

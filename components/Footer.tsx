@@ -12,21 +12,21 @@ export default function Footer() {
             <p className="mb-2">Pl. España, 1</p>
             <p className="mb-2">10666 Santibáñez el Bajo, Cáceres</p>
             <p className="mb-2">
-              <a href="tel:927670059" className="hover:text-verde-claro transition-colors">
-                Tel: 927 67 00 59
+              <a href="tel:636499798" className="hover:text-verde-claro transition-colors">
+                Tel: 636 499 798
               </a>
             </p>
             <p>
-              <a href="tel:669297211" className="hover:text-verde-claro transition-colors">
-                Tel: 669 29 72 11
+              <a href="tel:661083727" className="hover:text-verde-claro transition-colors">
+                Tel: 661 083 727
               </a>
             </p>
             <p className="mt-2">
               <a
-                href="mailto:info@crosslaslagunas.com"
+                href="mailto:info@crosslaslagunas.es"
                 className="hover:text-verde-claro transition-colors"
               >
-                info@crosslaslagunas.com
+                info@crosslaslagunas.es
               </a>
             </p>
           </div>
@@ -89,6 +89,19 @@ export default function Footer() {
             <Link href="/cookies" className="text-sm hover:text-verde-claro transition-colors">
               Política de Cookies
             </Link>
+          </div>
+          <div className="mt-4">
+            <p className="text-sm text-verde-claro">
+              Esta web fue desarrollada con ❤️ por:{' '}
+              <a 
+                href="https://marketing-rural.com?utm_source=crosslaslagunas&utm_medium=footer&utm_campaign=webdev"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-beige transition-colors underline"
+              >
+                marketing-rural.com
+              </a>
+            </p>
           </div>
         </div>
       </div>

@@ -53,7 +53,7 @@ export default function Inscripcion() {
                 Es rápido, seguro y recibirás confirmación inmediata.
               </p>
               <a
-                href="https://forms.google.com"
+                href="https://forms.gle/L5XcTks6wJCRnVCW7"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block bg-beige text-verde-oscuro px-8 py-4 rounded-lg font-bold hover:bg-white transition-colors"
@@ -73,9 +73,13 @@ export default function Inscripcion() {
                     <p className="text-gray-700 mb-2">
                       Realiza tu pago mediante transferencia bancaria a la cuenta indicada en el formulario.
                     </p>
-                    <p className="text-sm text-gray-600">
+                    <p className="text-sm text-gray-600 mb-3">
                       <strong>Importante:</strong> Incluye tu nombre y categoría en el concepto de la transferencia.
                     </p>
+                    <div className="bg-verde-claro/20 p-3 rounded text-sm">
+                      <strong>CAJA ALMENDRALEJO</strong><br/>
+                      ES31 3001 0076 9876 1000 2170
+                    </div>
                   </div>
                 </div>
 
@@ -84,8 +88,7 @@ export default function Inscripcion() {
                   <div className="flex-1">
                     <h4 className="text-xl font-bold mb-2 text-verde-oscuro">Pago Presencial</h4>
                     <p className="text-gray-700">
-                      Puedes pagar en efectivo en el Ayuntamiento durante los días previos o
-                      en el stand de dorsales el día de la carrera.
+                      Puedes pagar en efectivo en el Ayuntamiento durante los días previos o en el stand de dorsales el día de la carrera.
                     </p>
                   </div>
                 </div>
@@ -114,7 +117,7 @@ export default function Inscripcion() {
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-verde-oscuro font-bold">✓</span>
-                  <span>La inscripción incluye seguro de accidentes, cronometraje y avituallamiento</span>
+                  <span>La inscripción incluye: bolsa del corredor, seguro de accidentes, guardarropa, dorsal, avituallamiento durante y después de la carrera.</span>
                 </li>
               </ul>
             </div>
@@ -136,24 +139,24 @@ export default function Inscripcion() {
               <div className="space-y-2 text-gray-700">
                 <p className="flex items-center gap-2">
                   <span className="text-verde-oscuro">📍</span>
-                  Pl. España, 1, 10666 Santibáñez el Bajo, Cáceres
+                  <strong>Dirección:</strong> Pl. España, 1, 10666 Santibáñez el Bajo, Cáceres
                 </p>
                 <p className="flex items-center gap-2">
-                  <span className="text-verde-oscuro">📞</span>
-                  <a href="tel:927670059" className="hover:text-verde-claro transition-colors">
-                    927 67 00 59
+                  <span className="text-verde-oscuro">📱</span>
+                  <strong>Teléfono:</strong> <a href="tel:636499798" className="hover:text-verde-claro transition-colors">
+                    636 499 798
                   </a>
                 </p>
                 <p className="flex items-center gap-2">
                   <span className="text-verde-oscuro">📱</span>
-                  <a href="tel:669297211" className="hover:text-verde-claro transition-colors">
-                    669 29 72 11
+                  <strong>Teléfono:</strong> <a href="tel:661083727" className="hover:text-verde-claro transition-colors">
+                    661 083 727
                   </a>
                 </p>
                 <p className="flex items-center gap-2">
                   <span className="text-verde-oscuro">✉️</span>
-                  <a href="mailto:info@crosslaslagunas.com" className="hover:text-verde-claro transition-colors">
-                    info@crosslaslagunas.com
+                  <strong>Email:</strong> <a href="mailto:info@crosslaslagunas.es" className="hover:text-verde-claro transition-colors">
+                    info@crosslaslagunas.es
                   </a>
                 </p>
               </div>

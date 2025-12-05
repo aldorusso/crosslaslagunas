@@ -3,40 +3,40 @@ import Image from 'next/image';
 export default function Categorias() {
   const categorias = [
     {
-      nombre: 'Absoluta Mixto / Seniors Mixto / Veteranos Mixto',
+      nombre: 'Absoluta: Seniors Mixto / Veteranos Mixto',
       distancia: '12 km (Aproximadamente)',
       descripcion: 'La Prueba Reina. Es el tramo más exigente y técnico. Se desarrolla en un circuito ondulado que combina terreno de hierba y tierra compacta, aprovechando las características naturales de la Dehesa.',
-      publico: 'Corredores federados y populares experimentados',
+      publico: 'Corredores populares experimentados',
       icon: '🏆',
       color: 'from-verde-oscuro to-verde-claro'
     },
     {
-      nombre: 'Popular Corta / Cross Corto',
-      distancia: '5 km (Aproximadamente)',
+      nombre: 'Cross Corto Popular',
+      distancia: '6 km (Aproximadamente)',
       descripcion: 'Iniciación al Cross. Ideal para deportistas ocasionales o caminantes que desean experimentar el entorno sin la carga de la distancia completa.',
-      publico: 'Deportistas ocasionales, iniciados',
+      publico: 'Deportistas ocasionales e iniciados en las carreras populares. Todas aquellas personas que quieran participar andando',
       icon: '🏃',
       color: 'from-verde-claro to-beige'
     },
     {
-      nombre: 'Juvenil / Cadete',
-      distancia: '3-4 km',
+      nombre: '14/15 años',
+      distancia: '2 km',
       descripcion: 'Pruebas competitivas para jóvenes atletas, manteniendo la esencia del campo a través.',
-      publico: 'Jóvenes atletas (14-17 años)',
+      publico: 'Jóvenes atletas (14-15 años)',
       icon: '🎯',
       color: 'from-beige to-verde-claro'
     },
     {
-      nombre: 'Infantil / Alevín',
-      distancia: '1-2 km',
+      nombre: '8/12 años',
+      distancia: '1 km',
       descripcion: 'Deporte Base. Carreras seguras y cortas, realizadas en circuito más corto y llano para máxima visibilidad y seguridad.',
-      publico: 'Niños y niñas (8-13 años)',
+      publico: 'Niñas y niños de 8 a 12 años',
       icon: '⚡',
       color: 'from-verde-claro to-verde-oscuro'
     },
     {
-      nombre: 'Chupetines (Promocional)',
-      distancia: '100-200 m',
+      nombre: 'Promoción 4/7 años',
+      distancia: '200 m',
       descripcion: 'Familiar y Lúdica. Una carrera no competitiva y festiva para los más pequeños. Todos los participantes reciben un regalo o medalla simbólica.',
       publico: 'Los más pequeños (hasta 7 años)',
       icon: '🎈',
@@ -74,14 +74,13 @@ export default function Categorias() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div className="bg-beige/30 p-6 rounded-lg">
                 <h3 className="text-xl font-bold mb-3 text-verde-oscuro">
-                  Corredores Populares y Federados Regionales
+                  Corredores Populares Regionales
                 </h3>
                 <p className="text-gray-700 mb-3">
                   <strong>Quiénes son:</strong> Atletas individuales y clubes de atletismo de Extremadura y provincias vecinas.
                 </p>
                 <p className="text-gray-700">
-                  <strong>Qué buscan:</strong> Una carrera de campo a través competitiva y bien organizada que se salga de los circuitos urbanos,
-                  ofreciendo el desafío y la belleza de la Dehesa.
+                  <strong>Qué buscan:</strong> Una carrera de campo a través competitiva y bien organizada que se salga de los circuitos urbanos, ofreciendo el desafío y la belleza de la Dehesa Boyal.
                 </p>
               </div>
 
@@ -93,8 +92,7 @@ export default function Categorias() {
                   <strong>Quiénes son:</strong> Vecinos de Santibáñez el Bajo, familias, niños y jóvenes.
                 </p>
                 <p className="text-gray-700">
-                  <strong>Qué buscan:</strong> Fomentar el deporte, el orgullo de pertenencia al municipio y disfrutar de un evento social,
-                  participando en las categorías más cortas y lúdicas.
+                  <strong>Qué buscan:</strong> Fomentar el deporte, el orgullo de pertenencia al municipio y disfrutar de un evento social, participando en las categorías más cortas y lúdicas.
                 </p>
               </div>
             </div>
@@ -153,16 +151,6 @@ export default function Categorias() {
 
               <div className="bg-verde-claro/20 p-6 rounded-lg">
                 <h3 className="text-xl font-bold mb-3 text-verde-oscuro flex items-center gap-2">
-                  <span>🔄</span> Sistema de Vueltas
-                </h3>
-                <p className="text-gray-700">
-                  Formato inclusivo con sistema de circuitos cerrados por vueltas,
-                  diseñado para máxima visibilidad y seguridad de los participantes.
-                </p>
-              </div>
-
-              <div className="bg-verde-claro/20 p-6 rounded-lg">
-                <h3 className="text-xl font-bold mb-3 text-verde-oscuro flex items-center gap-2">
                   <span>🏞️</span> Entorno Natural
                 </h3>
                 <p className="text-gray-700">
@@ -193,7 +181,9 @@ export default function Categorias() {
             Elige tu categoría e inscríbete en el Cross Las Lagunas
           </p>
           <a
-            href="/inscripcion"
+            href="https://forms.gle/L5XcTks6wJCRnVCW7"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-block bg-beige text-verde-oscuro px-8 py-4 rounded-lg font-bold text-lg hover:bg-white transition-colors shadow-lg"
           >
             Inscríbete Ahora

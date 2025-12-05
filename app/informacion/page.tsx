@@ -36,7 +36,7 @@ export default function Informacion() {
 
               <div className="bg-beige/30 p-6 rounded-lg text-center">
                 <div className="text-4xl mb-3">🚻</div>
-                <h3 className="font-bold text-verde-oscuro">Baños Públicos</h3>
+                <h3 className="font-bold text-verde-oscuro">WC disponibles</h3>
                 <p className="text-sm text-gray-600 mt-2">WC portátiles disponibles</p>
               </div>
 
@@ -53,9 +53,9 @@ export default function Informacion() {
               </div>
 
               <div className="bg-verde-claro/20 p-6 rounded-lg text-center">
-                <div className="text-4xl mb-3">🚑</div>
-                <h3 className="font-bold text-verde-oscuro">Servicio Médico</h3>
-                <p className="text-sm text-gray-600 mt-2">Ambulancia y personal sanitario</p>
+                <div className="text-4xl mb-3">📹</div>
+                <h3 className="font-bold text-verde-oscuro">Recuerdo audiovisual</h3>
+                <p className="text-sm text-gray-600 mt-2">De los mejores momentos del evento</p>
               </div>
             </div>
           </div>
@@ -104,14 +104,6 @@ export default function Informacion() {
                     <span className="text-verde-oscuro">•</span>
                     <span>Voluntarios distribuidos por todo el circuito</span>
                   </li>
-                  <li className="flex items-start gap-2">
-                    <span className="text-verde-oscuro">•</span>
-                    <span>Servicio médico con ambulancia disponible</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <span className="text-verde-oscuro">•</span>
-                    <span>Cronometraje profesional</span>
-                  </li>
                 </ul>
               </div>
 
@@ -122,11 +114,11 @@ export default function Informacion() {
                 <ul className="space-y-2 text-gray-700">
                   <li className="flex items-start gap-2">
                     <span className="text-verde-oscuro">•</span>
-                    <span>Degustación de migas extremeñas y productos locales</span>
+                    <span>Degustación de productos locales</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-verde-oscuro">•</span>
-                    <span>Entrega de premios y clasificaciones</span>
+                    <span>Entrega de premios y sorteos</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-verde-oscuro">•</span>

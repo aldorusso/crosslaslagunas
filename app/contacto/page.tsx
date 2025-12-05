@@ -25,26 +25,29 @@ export default function Contacto() {
                   <div className="flex items-start gap-3">
                     <span className="text-2xl">📍</span>
                     <div>
-                      <p className="font-bold text-verde-oscuro">Dirección</p>
                       <p className="text-gray-700">
-                        Pl. España, 1<br />
-                        10666 Santibáñez el Bajo<br />
-                        Cáceres, España
+                        <strong>📍Dirección:</strong> Pl. España, 1, 10666 Santibáñez el Bajo, Cáceres
                       </p>
                     </div>
                   </div>
 
                   <div className="flex items-start gap-3">
-                    <span className="text-2xl">📞</span>
+                    <span className="text-2xl">📱</span>
                     <div>
-                      <p className="font-bold text-verde-oscuro">Teléfonos</p>
                       <p className="text-gray-700">
-                        <a href="tel:927670059" className="hover:text-verde-claro transition-colors">
-                          927 67 00 59
+                        <strong>📱 Teléfono:</strong> <a href="tel:636499798" className="hover:text-verde-claro transition-colors">
+                          636 499 798
                         </a>
-                        <br />
-                        <a href="tel:669297211" className="hover:text-verde-claro transition-colors">
-                          669 29 72 11
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="flex items-start gap-3">
+                    <span className="text-2xl">📱</span>
+                    <div>
+                      <p className="text-gray-700">
+                        <strong>📱 Teléfono:</strong> <a href="tel:661083727" className="hover:text-verde-claro transition-colors">
+                          661 083 727
                         </a>
                       </p>
                     </div>
@@ -53,13 +56,12 @@ export default function Contacto() {
                   <div className="flex items-start gap-3">
                     <span className="text-2xl">✉️</span>
                     <div>
-                      <p className="font-bold text-verde-oscuro">Email</p>
                       <p className="text-gray-700">
-                        <a
-                          href="mailto:info@crosslaslagunas.com"
+                        <strong>✉️Email:</strong> <a
+                          href="mailto:info@crosslaslagunas.es"
                           className="hover:text-verde-claro transition-colors break-all"
                         >
-                          info@crosslaslagunas.com
+                          info@crosslaslagunas.es
                         </a>
                       </p>
                     </div>
@@ -102,12 +104,10 @@ export default function Contacto() {
             <div className="space-y-4">
               <details className="bg-white p-6 rounded-lg shadow-md group">
                 <summary className="font-bold text-verde-oscuro cursor-pointer flex justify-between items-center">
-                  ¿Cuándo es el evento?
-                  <span className="group-open:rotate-180 transition-transform">▼</span>
+                  ¿Cuándo es el evento?▼
                 </summary>
                 <p className="mt-4 text-gray-700">
-                  Las fechas exactas del I Cross Las Lagunas se anunciarán próximamente.
-                  Suscríbete a nuestra newsletter o síguenos en redes sociales para estar al día.
+                  Domingo 28 de Diciembre de 2025 a partir de las 10:00 Hrs.
                 </p>
               </details>
 
@@ -125,36 +125,28 @@ export default function Contacto() {
 
               <details className="bg-white p-6 rounded-lg shadow-md group">
                 <summary className="font-bold text-verde-oscuro cursor-pointer flex justify-between items-center">
-                  ¿Los menores pueden participar?
-                  <span className="group-open:rotate-180 transition-transform">▼</span>
+                  ¿Los menores pueden participar?▼
                 </summary>
                 <p className="mt-4 text-gray-700">
-                  Sí, tenemos categorías para todas las edades desde Chupetines (hasta 7 años) hasta Veteranos.
-                  Los menores de edad necesitarán autorización firmada por padres o tutores legales.
+                  Sí, tenemos categorías para todas las edades desde promoción (de 4 a 7 años) hasta Veteranos. Los menores de edad necesitarán autorización firmada por padres o tutores legales.
                 </p>
               </details>
 
               <details className="bg-white p-6 rounded-lg shadow-md group">
                 <summary className="font-bold text-verde-oscuro cursor-pointer flex justify-between items-center">
-                  ¿Qué incluye la inscripción?
-                  <span className="group-open:rotate-180 transition-transform">▼</span>
+                  ¿Qué incluye la inscripción?▼
                 </summary>
                 <p className="mt-4 text-gray-700">
-                  La inscripción incluye: seguro de accidentes, cronometraje profesional, dorsal,
-                  avituallamiento durante y después de la carrera (incluyendo las tradicionales migas extremeñas),
-                  y servicio médico.
+                  La inscripción incluye: bolsa del corredor, seguro de accidentes, guardarropa, dorsal, avituallamiento durante y después de la carrera.
                 </p>
               </details>
 
               <details className="bg-white p-6 rounded-lg shadow-md group">
                 <summary className="font-bold text-verde-oscuro cursor-pointer flex justify-between items-center">
-                  ¿Hay premios?
-                  <span className="group-open:rotate-180 transition-transform">▼</span>
+                  ¿Hay premios?▼
                 </summary>
                 <p className="mt-4 text-gray-700">
-                  Sí, habrá premios para los primeros clasificados en las diferentes categorías.
-                  Además, todos los participantes de la categoría Chupetines recibirán una medalla o regalo simbólico.
-                  Los detalles de la premiación se anunciarán próximamente.
+                  Sí, habrá premios para los primeros clasificados en las diferentes categorías. Además, todos los participantes de las categorías inferiores recibirán una medalla o regalo simbólico.
                 </p>
               </details>
 
@@ -197,38 +189,43 @@ export default function Contacto() {
               <p className="text-center text-gray-700 mb-6">
                 Para cualquier consulta, no dudes en ponerte en contacto con nosotros a través de:
               </p>
-              <div className="space-y-4 text-center">
+              <div className="space-y-4">
                 <div>
                   <p className="font-bold text-verde-oscuro mb-2">Email</p>
                   <a
-                    href="mailto:info@crosslaslagunas.com"
+                    href="mailto:info@crosslaslagunas.es"
                     className="text-lg hover:text-verde-claro transition-colors"
                   >
-                    info@crosslaslagunas.com
+                    info@crosslaslagunas.es
                   </a>
                 </div>
                 <div>
                   <p className="font-bold text-verde-oscuro mb-2">Teléfonos</p>
                   <p>
-                    <a href="tel:927670059" className="hover:text-verde-claro transition-colors">
-                      927 67 00 59
+                    <a href="tel:636499798" className="hover:text-verde-claro transition-colors">
+                      636 49 97 98
                     </a>
                     {' / '}
-                    <a href="tel:669297211" className="hover:text-verde-claro transition-colors">
-                      669 29 72 11
+                    <a href="tel:661083727" className="hover:text-verde-claro transition-colors">
+                      661 083 727
                     </a>
                   </p>
                 </div>
                 <div>
                   <p className="font-bold text-verde-oscuro mb-2">Redes Sociales</p>
-                  <a
-                    href="https://facebook.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-block bg-verde-oscuro text-white px-6 py-3 rounded-lg hover:bg-verde-claro transition-colors"
-                  >
-                    Síguenos en Facebook
-                  </a>
+                  <p className="mb-2">Síguenos en Facebook</p>
+                  <p>instagram de desconectatrail</p>
+                </div>
+                <div className="bg-white p-4 rounded">
+                  <h4 className="font-bold text-verde-oscuro mb-2">Contacto</h4>
+                  <p className="text-gray-700 text-sm">
+                    Ayuntamiento de Santibáñez el Bajo<br/>
+                    Pl. España, 1<br/>
+                    10666 Santibáñez el Bajo, Cáceres<br/>
+                    Tel: 636 499 798<br/>
+                    Tel: 661 083 727<br/>
+                    info@crosslaslagunas.es
+                  </p>
                 </div>
               </div>
             </div>
@@ -244,7 +241,9 @@ export default function Contacto() {
             No esperes más e inscríbete en el Cross Las Lagunas
           </p>
           <a
-            href="/inscripcion"
+            href="https://forms.gle/L5XcTks6wJCRnVCW7"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-block bg-beige text-verde-oscuro px-8 py-4 rounded-lg font-bold text-lg hover:bg-white transition-colors shadow-lg"
           >
             Inscríbete Ahora

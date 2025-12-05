@@ -35,7 +35,9 @@ export default function Home() {
               ¡Ven a vivir este espectacular cross!
             </p>
             <Link
-              href="/inscripcion"
+              href="https://forms.gle/L5XcTks6wJCRnVCW7"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-block bg-beige text-verde-oscuro px-8 py-4 rounded-lg font-bold text-lg hover:bg-white transition-colors shadow-lg"
             >
               Inscríbete Ahora
@@ -54,24 +56,20 @@ export default function Home() {
             <div className="bg-beige/30 p-8 rounded-lg">
               <h3 className="text-2xl font-bold mb-4 text-verde-oscuro">Historia: La Dehesa como protagonista</h3>
               <p>
-                El I Cross Popular "Dehesa de Santibáñez" nace de la visión de un grupo de vecinos comprometidos con el deporte
-                y el desarrollo local, con el objetivo de convertir un activo natural inigualable —la Dehesa de Santibáñez el Bajo—
-                en el escenario de una experiencia deportiva memorable. Este paraje, corazón de la comarca Trasierra-Tierras de Granadilla,
-                se distingue por su biodiversidad, sus encinas centenarias y alcornoques, que dibujan un paisaje de llanuras y suaves ondulaciones.
-                La historia del evento está intrínsecamente ligada al territorio, buscando honrar la dehesa extremeña y posicionar a Santibáñez
-                el Bajo en el mapa del turismo deportivo regional.
+                El I Cross Popular Las Lagunas, nace de la visión de un grupo de vecinos comprometidos con el deporte y el desarrollo local, con el objetivo de convertir un activo natural inigualable —la Dehesa Boyal de Santibáñez el Bajo— en el escenario de una experiencia deportiva memorable. Este paraje, corazón de la comarca Trasierra-Tierras de Granadilla, se distingue por su biodiversidad, sus encinas centenarias y alcornoques, que dibujan un paisaje de llanuras y suaves ondulaciones. La historia del evento está intrínsecamente ligada al territorio, buscando honrar la dehesa extremeña y posicionar a Santibáñez el Bajo en el mapa del turismo deportivo regional.
               </p>
             </div>
 
             <div className="bg-verde-claro/20 p-8 rounded-lg">
               <h3 className="text-2xl font-bold mb-4 text-verde-oscuro">Filosofía y Ambiente: Deporte, Naturaleza y Comunidad</h3>
               <p>
-                Nuestra filosofía se resume en tres pilares: <strong>Deporte, Naturaleza y Comunidad</strong>. Más allá de la competición,
-                buscamos promover la salud y el bienestar, el respeto absoluto por el entorno (con un plan de sostenibilidad Cero Residuos
-                y balizado respetuoso) y el fortalecimiento del tejido social. El ambiente será festivo e inclusivo, comenzando la jornada
-                con las emocionantes carreras infantiles y culminando con la prueba reina de la categoría absoluta. El punto álgido será
-                la convivencia post-carrera, que se reforzará con una degustación del sabor local, ofreciendo a corredores y acompañantes
-                las tradicionales migas extremeñas como agradecimiento por su participación.
+                Nuestra filosofía se resume en tres pilares: Deporte, Naturaleza y Comunidad. Más allá de la competición, buscamos promover la salud y el bienestar, el respeto absoluto por el entorno (con un plan de sostenibilidad Cero Residuos y balizado respetuoso) y el fortalecimiento del tejido social.
+              </p>
+              <p className="mt-4">
+                El ambiente será festivo, comenzando la jornada con la prueba reina de la categoría absoluta, la distancia larga, 12 Km por un paisaje espectacular que nos regala esta época del año, continuando con la distancia corta de 6 km que se puede hacer corriendo ó si se prefiere andando, ya que contaremos con la modalidad pedestre y culminando con las emocionantes carreras infantiles.
+              </p>
+              <p className="mt-4">
+                El punto álgido será la convivencia post-carrera, que se reforzará con una degustación del sabor local, para que corredores y acompañantes pasen un rato agradable en agradecimiento por su participación.
               </p>
             </div>
 
@@ -141,7 +139,8 @@ export default function Home() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
             <div className="bg-gradient-to-br from-verde-oscuro to-verde-claro text-white p-6 rounded-lg shadow-lg">
-              <h3 className="text-2xl font-bold mb-2">Absoluta / Seniors / Veteranos</h3>
+              <h3 className="text-2xl font-bold mb-2">Absoluta: Cross Largo Seniors / Veteranos</h3>
+              <p className="text-lg mb-2">A partir de 18 años</p>
               <p className="text-3xl font-bold mb-4">12 km</p>
               <p className="text-sm">
                 La Prueba Reina. El tramo más exigente y técnico en circuito ondulado de hierba y tierra compacta.
@@ -149,32 +148,33 @@ export default function Home() {
             </div>
 
             <div className="bg-gradient-to-br from-verde-claro to-beige text-verde-oscuro p-6 rounded-lg shadow-lg">
-              <h3 className="text-2xl font-bold mb-2">Popular Corta / Cross Corto</h3>
-              <p className="text-3xl font-bold mb-4">5 km</p>
+              <h3 className="text-2xl font-bold mb-2">Popular Cross Corto y Pedestre</h3>
+              <p className="text-lg mb-2">A partir de 16 años</p>
+              <p className="text-3xl font-bold mb-4">6 km</p>
               <p className="text-sm">
                 Iniciación al Cross. Ideal para deportistas ocasionales que desean experimentar el entorno.
               </p>
             </div>
 
             <div className="bg-gradient-to-br from-beige to-verde-claro text-verde-oscuro p-6 rounded-lg shadow-lg">
-              <h3 className="text-2xl font-bold mb-2">Juvenil / Cadete</h3>
-              <p className="text-3xl font-bold mb-4">3-4 km</p>
+              <h3 className="text-2xl font-bold mb-2">14/15 años</h3>
+              <p className="text-3xl font-bold mb-4">2 km</p>
               <p className="text-sm">
-                Pruebas competitivas para jóvenes atletas, manteniendo la esencia del campo a través.
+                Pruebas competitivas de promoción de jóvenes atletas, manteniendo la esencia del campo a través.
               </p>
             </div>
 
             <div className="bg-gradient-to-br from-verde-claro to-verde-oscuro text-white p-6 rounded-lg shadow-lg">
-              <h3 className="text-2xl font-bold mb-2">Infantil / Alevín</h3>
-              <p className="text-3xl font-bold mb-4">1-2 km</p>
+              <h3 className="text-2xl font-bold mb-2">8/12 años</h3>
+              <p className="text-3xl font-bold mb-4">1 km</p>
               <p className="text-sm">
                 Deporte Base. Carreras seguras y cortas para máxima visibilidad y seguridad.
               </p>
             </div>
 
             <div className="bg-gradient-to-br from-beige via-verde-claro to-verde-oscuro text-white p-6 rounded-lg shadow-lg">
-              <h3 className="text-2xl font-bold mb-2">Chupetines</h3>
-              <p className="text-3xl font-bold mb-4">100-200 m</p>
+              <h3 className="text-2xl font-bold mb-2">Promoción 4/7 años</h3>
+              <p className="text-3xl font-bold mb-4">200 m</p>
               <p className="text-sm">
                 Familiar y Lúdica. Carrera no competitiva para los más pequeños. Todos reciben medalla.
               </p>
@@ -215,8 +215,7 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-bold mb-3 text-verde-oscuro">Identidad Local</h3>
               <p className="text-gray-700">
-                Degustación de migas extremeñas y productos de la tierra tras la competición.
-                Un evento con sabor local auténtico.
+                Degustación de productos de la tierra tras la competición. Un evento con sabor local auténtico.
               </p>
             </div>
 
@@ -251,20 +250,6 @@ export default function Home() {
                 />
               </div>
             ))}
-          </div>
-          <div className="text-center mt-12">
-            <div className="relative h-80 rounded-lg overflow-hidden shadow-2xl max-w-4xl mx-auto">
-              <Image
-                src="/images/laguna-dehesa.jpg"
-                alt="Laguna de la Dehesa"
-                fill
-                className="object-cover"
-              />
-              <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-verde-oscuro/90 to-transparent p-6">
-                <p className="text-white text-xl font-bold">Laguna de la Dehesa</p>
-                <p className="text-beige">Un entorno natural único en Extremadura</p>
-              </div>
-            </div>
           </div>
         </div>
       </section>
@@ -301,7 +286,9 @@ export default function Home() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
-              href="/inscripcion"
+              href="https://forms.gle/L5XcTks6wJCRnVCW7"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-block bg-beige text-verde-oscuro px-8 py-4 rounded-lg font-bold text-lg hover:bg-white transition-colors shadow-lg"
             >
               Inscríbete Ahora

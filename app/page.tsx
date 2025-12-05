@@ -262,6 +262,7 @@ export default function Home() {
           </h2>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-8 max-w-7xl mx-auto">
             {[
+              "1000130341.jpg",
               "1000129473.jpg",
               "1000130328.jpg", 
               "1000130329.jpg",
@@ -274,8 +275,7 @@ export default function Home() {
               "1000130336.jpg",
               "1000130337.jpg",
               "1000130338.jpg",
-              "1000130339.jpg",
-              "1000130341.jpg"
+              "1000130339.jpg"
             ].map((logo, index) => (
               <div key={index} className="flex items-center justify-center p-4 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 border border-gray-100">
                 <div className="relative w-full h-24 flex items-center justify-center">

@@ -254,6 +254,45 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Patrocinadores */}
+      <section className="py-20 bg-white">
+        <div className="container mx-auto px-4">
+          <h2 className="text-4xl font-bold text-center mb-12 text-verde-oscuro">
+            Patrocinadores del evento
+          </h2>
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-8 max-w-7xl mx-auto">
+            {[
+              "1000129473.jpg",
+              "1000130328.jpg", 
+              "1000130329.jpg",
+              "1000130330.jpg",
+              "1000130331.jpg",
+              "1000130332.jpg",
+              "1000130333.jpg",
+              "1000130334.jpg",
+              "1000130335.jpg",
+              "1000130336.jpg",
+              "1000130337.jpg",
+              "1000130338.jpg",
+              "1000130339.jpg",
+              "1000130341.jpg"
+            ].map((logo, index) => (
+              <div key={index} className="flex items-center justify-center p-4 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 border border-gray-100">
+                <div className="relative w-full h-24 flex items-center justify-center">
+                  <Image
+                    src={`/logos/${logo}`}
+                    alt={`Patrocinador ${index + 1}`}
+                    fill
+                    className="object-contain filter hover:brightness-110 transition-all duration-300"
+                    sizes="(max-width: 768px) 50vw, (max-width: 1024px) 33vw, (max-width: 1280px) 25vw, 20vw"
+                  />
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Apoyo Institucional */}
       <section className="py-20 bg-beige/30">
         <div className="container mx-auto px-4">
